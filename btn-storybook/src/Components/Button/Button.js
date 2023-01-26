@@ -1,4 +1,6 @@
-import PropTypes from "prop-types"
+import PropTypes from "prop-types";
+import  "./Button.css";
+
 
 function Button({ label, backgroundColor = "#6B4EFF", color = "white", borderRadius="48px", border="none"}) {
 const style = {
