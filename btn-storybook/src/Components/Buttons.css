@@ -5,7 +5,8 @@
     font-weight: 500;
     text-align: center;
     text-decoration: none;
-    color: #33A0FF;
+    color:white;
+    background:#33A0FF;
     border-radius: 4px;
     border: none;
     cursor: pointer;
@@ -18,7 +19,8 @@
     font-weight: 500;
     text-align: center;
     text-decoration: none;
-    background-color: blueviolet;
+    background:#33A0FF;
+    filter:brightness(75%);
     color: #fff;
     border-radius: 4px;
     border: none;
@@ -32,10 +34,9 @@
     font-weight: 500;
     text-align: center;
     text-decoration: none;
-    background-color: orange;
-    color: #fff;
+    color: #33A0FF;
     border-radius: 4px;
-    border: none;
+    border:solid 1px #33A0FF;;
     cursor: pointer;
     transition: all 0.3s ease-in-out;
   }
@@ -46,7 +47,8 @@
     font-weight: 500;
     text-align: center;
     text-decoration: none;
-    background-color: yellow;
+    background-color: #33A0FF;
+    opacity:60%;    
     color: #fff;
     border-radius: 4px;
     border: none;
@@ -55,13 +57,13 @@
   }
   .largeBasic {
     display: inline-block;
-    padding: 8px 16px;
+    padding: 15px 32px;
     font-size: 14px;
     font-weight: 500;
     text-align: center;
     text-decoration: none;
-    background-color: green;
-    color: #fff;
+    color:white;
+    background:#33A0FF;
     border-radius: 4px;
     border: none;
     cursor: pointer;
@@ -69,12 +71,13 @@
   }
   .largeSoft {
     display: inline-block;
-    padding: 8px 16px;
+    padding: 15px 32px;
     font-size: 14px;
     font-weight: 500;
     text-align: center;
     text-decoration: none;
-    background-color: pink;
+    background-color: #33A0FF;
+    opacity:60%;    
     color: #fff;
     border-radius: 4px;
     border: none;
@@ -83,15 +86,14 @@
   }
   .largeWire {
     display: inline-block;
-    padding: 8px 16px;
+    padding: 15px 32px;
     font-size: 14px;
     font-weight: 500;
     text-align: center;
     text-decoration: none;
-    background-color: red;
-    color: #fff;
+    color: #33A0FF;
     border-radius: 4px;
-    border: none;
+    border:solid 1px #33A0FF;;
     cursor: pointer;
     transition: all 0.3s ease-in-out;
   }
