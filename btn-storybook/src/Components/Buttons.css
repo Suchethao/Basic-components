@@ -1,4 +1,5 @@
-.basic {
+
+ .basic {
     display: inline-block;
     padding: 8px 16px;
     font-size: 14px;
@@ -11,8 +12,29 @@
     border: none;
     cursor: pointer;
     transition: all 0.3s ease-in-out;
+    margin:10px;
   }
-  .hover {
+  .addToCart, .addToFavorites, .heart, .cart ,.green.addToCart, 
+  .green.addToFavorites, .green.heart, .green.cart,
+  .red.addToCart, .red.addToFavorites, .red.heart, .red.cart, 
+  .yellow.addToCart, .yellow.addToFavorites, .yellow.heart, .yellow.cart, 
+  .black.addToCart, .black.addToFavorites, .black.heart, .black.cart{
+    display: inline-block;
+    padding: 8px 16px;
+    font-size: 14px;
+    font-weight: 500;
+    text-align: center;
+    text-decoration: none;
+    color:#33A0FF;
+    background:#d4e7f7;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    margin:10px;
+  }
+
+.hover {
     display: inline-block;
     padding: 8px 16px;
     font-size: 14px;
@@ -20,14 +42,15 @@
     text-align: center;
     text-decoration: none;
     background:#33A0FF;
-    filter:brightness(75%);
+    filter:brightness(85%);
     color: #fff;
     border-radius: 4px;
     border: none;
     cursor: pointer;
     transition: all 0.3s ease-in-out;
+    margin:10px;
   }
-  .wire {
+.wire {
     display: inline-block;
     padding: 8px 16px;
     font-size: 14px;
@@ -35,12 +58,14 @@
     text-align: center;
     text-decoration: none;
     color: #33A0FF;
+    background-color:white;
     border-radius: 4px;
-    border:solid 1px #33A0FF;;
+    border:solid 2px #33A0FF;;
     cursor: pointer;
     transition: all 0.3s ease-in-out;
+    margin:10px;
   }
-  .soft {
+.soft {
     display: inline-block;
     padding: 8px 16px;
     font-size: 14px;
@@ -48,14 +73,15 @@
     text-align: center;
     text-decoration: none;
     background-color: #33A0FF;
-    opacity:60%;    
-    color: #fff;
+    opacity:40%;    
+    color: white;
     border-radius: 4px;
     border: none;
     cursor: pointer;
     transition: all 0.3s ease-in-out;
+    margin:10px;
   }
-  .largeBasic {
+.largeBasic {
     display: inline-block;
     padding: 15px 32px;
     font-size: 14px;
@@ -68,8 +94,9 @@
     border: none;
     cursor: pointer;
     transition: all 0.3s ease-in-out;
+    margin:10px;
   }
-  .largeSoft {
+.largeSoft {
     display: inline-block;
     padding: 15px 32px;
     font-size: 14px;
@@ -77,23 +104,96 @@
     text-align: center;
     text-decoration: none;
     background-color: #33A0FF;
-    opacity:60%;    
-    color: #fff;
+    opacity:40%;    
+    color: white;
     border-radius: 4px;
     border: none;
     cursor: pointer;
     transition: all 0.3s ease-in-out;
+    margin:10px;
   }
-  .largeWire {
+.largeWire {
     display: inline-block;
     padding: 15px 32px;
     font-size: 14px;
     font-weight: 500;
     text-align: center;
     text-decoration: none;
+    background-color:white;
     color: #33A0FF;
     border-radius: 4px;
     border:solid 1px #33A0FF;;
     cursor: pointer;
     transition: all 0.3s ease-in-out;
+    margin:10px;
+  }  
+  .red {
+    background-color: #FF4858;
+  }
+  .red.wire {
+    color: #FF4858;
+    background-color:white;
+    border:solid 2px #FF4858;
+  }
+  .red.largeWire{
+    color: #FF4858;
+    background-color:white;
+    border:solid 1px #FF4858;
+  }
+  
+  .green {
+    background-color: #0AD00A;
+  }
+  .green.wire {
+    color: #0AD00A;
+    background-color:white;
+    border:solid 2px #0AD00A;
+  }
+  .green.largeWire{
+    color: #0AD00A;
+    background-color:white;
+    border:solid 1px #0AD00A;
+  }
+  .yellow {
+    background-color: #FFC600;
+  }
+  .yellow.wire {
+    color: #FFC600;
+    background-color:white;
+    border:solid 2px #FFC600;
+  }
+  .yellow.largeWire{
+    color: #FFC600;
+    background-color:white;
+    border:solid 1px #FFC600;
+  }
+  
+  .black {
+    background-color: black;
+  }
+  .black.wire {
+    color: black;
+    background-color:white;
+    border:solid 2px black;
+  }
+  .black.largeWire{
+    color: black;
+    background-color:white;
+    border:solid 1px black;
+  }
+
+  .green.addToCart, .green.addToFavorites, .green.heart, .green.cart {
+    display: inline-block;
+    padding: 8px 16px;
+    font-size: 14px;
+    font-weight: 500;
+    text-align: center;
+    text-decoration: none;
+    color:#33A0FF;
+    background:#d4e7f7;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    margin:10px;
   }

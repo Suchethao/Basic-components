@@ -6,9 +6,8 @@ export default {
   component: Button,
 };
 
-export const BasicUsage = () => <Button />;
-export const DangerUsage = () => <Button color="red" />;
-export const SuccessUsage = () => <Button color="green"/>;
-export const WarningUsage = () => <Button color="yellow"/>;
-export const DefaultUsage = () => <Button color="black"/>;
-
+export const BasicUsage = () => <Button className="basic">Click me</Button>;
+export const Danger = () => <Button className="my-button" color="red">Danger</Button>;
+export const Success = () => <Button className="my-button" color="green">Success</Button>;
+export const Warning = () => <Button className="my-button" color="yellow">Warning</Button>;
+export const Default = () => <Button className="my-button" color="black">Default</Button>;
