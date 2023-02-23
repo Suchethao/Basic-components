@@ -44,5 +44,4 @@ const Forms = ({ size }) => {
   );
 };
 
-
 export default Forms;
